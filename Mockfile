@@ -9,7 +9,7 @@ build:
 
 # setup the build environment
 setup:
-	sudo apt install dpkg-dev devscripts debhelper dh-exec shellcheck
+	sudo apt install -y dpkg-dev devscripts debhelper dh-exec shellcheck
 
 check: bashrc-patch
 	echo "#!/bin/bash" > check.sh
